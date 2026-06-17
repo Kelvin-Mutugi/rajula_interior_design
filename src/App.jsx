@@ -2,12 +2,14 @@ import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from './assets/vite.svg'
 import './App.css'
-
+import Navbar from "./components/nav_bar"
+import Hero from "./components/hero_section"
 function App() {
 
   return (
     <>
-      
+      <Navbar />
+      <Hero />
 
 
     </>
