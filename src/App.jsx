@@ -7,7 +7,7 @@ import Hero from "./components/hero_section"
 import Services from "./components/services_section"
 import RecentProjects from "./components/recent_projects"
 import AboutUs from "./components/about_us"
-
+import Footer from "./components/footer_section"
 
 function App() {
 
@@ -18,6 +18,7 @@ function App() {
       <Services />
       <RecentProjects />
       <AboutUs />
+      <Footer />
 
 
 
