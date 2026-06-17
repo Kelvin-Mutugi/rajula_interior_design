@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 
 const NAV_LINKS = [
-  { label: "HOME", href: "#home" },
+  { label: "HOME", href: "#" },
   { label: "ABOUT US", href: "#about" },
   { label: "SERVICES", href: "#services" },
   { label: "PROJECTS", href: "#projects" },
@@ -65,7 +65,7 @@ export default function Navbar() {
           {/* CTA Button (Desktop) */}
           <div className="hidden lg:block">
             <a
-              href="https://wa.me/"
+              href="https://wa.me/254795549913"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center gap-2 bg-[#C9A227] hover:bg-[#b8911f] text-black font-semibold text-[11px] tracking-[0.1em] px-5 py-2.5 rounded transition-colors duration-200"
@@ -107,7 +107,7 @@ export default function Navbar() {
             </a>
           ))}
           <a
-            href="https://wa.me/"
+            href="https://wa.me/254795549913"
             target="_blank"
             rel="noopener noreferrer"
             className="mt-3 inline-flex items-center justify-center gap-2 bg-[#C9A227] hover:bg-[#b8911f] text-black font-semibold text-[11px] tracking-[0.1em] px-5 py-3 rounded transition-colors duration-200"

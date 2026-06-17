@@ -137,8 +137,8 @@ export default function Footer() {
             <ul className="space-y-4 mb-6">
               <li className="flex items-start gap-3">
                 <Phone size={15} className="text-[#C9A227] mt-0.5 flex-shrink-0" />
-                <a href="tel:+254700123456" className="text-gray-400 text-sm hover:text-[#C9A227] transition-colors duration-200">
-                  +254 700 123 456
+                <a href="tel:+254795549913" className="text-gray-400 text-sm hover:text-[#C9A227] transition-colors duration-200">
+                  +254 795 549 913
                 </a>
               </li>
               <li className="flex items-start gap-3">
@@ -154,7 +154,7 @@ export default function Footer() {
             </ul>
 
             <a
-              href="https://wa.me/"
+              href="https://wa.me/254795549913"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center gap-2 bg-[#C9A227] hover:bg-[#b8911f] text-black font-bold text-xs tracking-[0.1em] uppercase px-5 py-3 transition-colors duration-200 w-full justify-center"

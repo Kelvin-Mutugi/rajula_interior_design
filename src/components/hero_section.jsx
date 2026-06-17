@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 
 const slides = [
   {
-    image: "https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?w=1600&q=80",
+    image: "https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?w=1600&q=80",
     label: "DESIGNING SPACES, CREATING COMFORT",
   },
   {

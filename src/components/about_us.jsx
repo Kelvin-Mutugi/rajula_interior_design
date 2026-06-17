@@ -110,7 +110,7 @@ export default function AboutUs() {
           }}
         >
           <img
-            src="https://images.unsplash.com/photo-1581578731548-c64695cc6952?w=900&q=80"
+            src="https://images.unsplash.com/photo-1600210492493-0946911123ea?w=1600&q=80"
             alt="Rajula's Interior team at work"
             className="w-full h-full object-cover"
             style={{ maxHeight: "480px" }}
