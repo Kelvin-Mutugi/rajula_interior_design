@@ -1,14 +1,19 @@
 import { useEffect, useRef, useState } from "react";
 import { ArrowUpRight } from "lucide-react";
+import image37 from "../images/image37.webp";
+import image40 from "../images/image40.webp";
+import image22 from "../images/image22.webp";
+import Gallery from "./gallery";
+ 
 
 const projects = [
   {
-    image: "https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?w=800&q=80",
+    image: image37,
     title: "Kitchen Remodel",
     category: "Kitchen Cabinet",
   },
   {
-    image: "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800&q=80",
+    image: image40,
     title: "Built-in Wardrobe",
     category: "Wardrobe Installation",
   },
@@ -18,28 +23,27 @@ const projects = [
     category: "TV Stands Installation",
   },
   {
-    image: "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?w=800&q=80",
+    image: image22,
     title: "Luxury Kitchen",
     category: "Kitchen Cabinet",
   },
 ];
 
+
 function ProjectCard({ project, index }) {
   const [visible, setVisible] = useState(false);
   const [hovered, setHovered] = useState(false);
   const ref = useRef(null);
-
+ 
   useEffect(() => {
     const observer = new IntersectionObserver(
-      ([entry]) => {
-        if (entry.isIntersecting) setTimeout(() => setVisible(true), index * 120);
-      },
+      ([entry]) => { if (entry.isIntersecting) setTimeout(() => setVisible(true), index * 120); },
       { threshold: 0.15 }
     );
     if (ref.current) observer.observe(ref.current);
     return () => observer.disconnect();
   }, [index]);
-
+ 
   return (
     <div
       ref={ref}
@@ -53,18 +57,12 @@ function ProjectCard({ project, index }) {
         aspectRatio: "3 / 4",
       }}
     >
-      {/* Image */}
       <img
         src={project.image}
         alt={project.title}
         className="w-full h-full object-cover"
-        style={{
-          transform: hovered ? "scale(1.07)" : "scale(1)",
-          transition: "transform 0.6s ease",
-        }}
+        style={{ transform: hovered ? "scale(1.07)" : "scale(1)", transition: "transform 0.6s ease" }}
       />
-
-      {/* Overlay */}
       <div
         className="absolute inset-0"
         style={{
@@ -74,41 +72,28 @@ function ProjectCard({ project, index }) {
           transition: "background 0.4s ease",
         }}
       />
-
-      {/* Arrow icon top-right */}
       <div
         className="absolute top-3 right-3 w-8 h-8 rounded-full bg-[#C9A227] flex items-center justify-center"
-        style={{
-          opacity: hovered ? 1 : 0,
-          transform: hovered ? "scale(1)" : "scale(0.7)",
-          transition: "opacity 0.3s ease, transform 0.3s ease",
-        }}
+        style={{ opacity: hovered ? 1 : 0, transform: hovered ? "scale(1)" : "scale(0.7)", transition: "opacity 0.3s ease, transform 0.3s ease" }}
       >
         <ArrowUpRight size={16} className="text-black" />
       </div>
-
-      {/* Label */}
       <div
         className="absolute bottom-0 left-0 right-0 p-4"
-        style={{
-          opacity: hovered ? 1 : 0,
-          transform: hovered ? "translateY(0)" : "translateY(8px)",
-          transition: "opacity 0.35s ease, transform 0.35s ease",
-        }}
+        style={{ opacity: hovered ? 1 : 0, transform: hovered ? "translateY(0)" : "translateY(8px)", transition: "opacity 0.35s ease, transform 0.35s ease" }}
       >
-        <p className="text-[#C9A227] text-[10px] font-semibold tracking-[0.2em] uppercase mb-1">
-          {project.category}
-        </p>
+        <p className="text-[#C9A227] text-[10px] font-semibold tracking-[0.2em] uppercase mb-1">{project.category}</p>
         <p className="text-white text-sm font-bold tracking-wide">{project.title}</p>
       </div>
     </div>
   );
 }
-
+ 
 export default function RecentProjects() {
   const [headerVisible, setHeaderVisible] = useState(false);
+  const [galleryOpen, setGalleryOpen] = useState(false);
   const headerRef = useRef(null);
-
+ 
   useEffect(() => {
     const observer = new IntersectionObserver(
       ([entry]) => { if (entry.isIntersecting) setHeaderVisible(true); },
@@ -117,55 +102,51 @@ export default function RecentProjects() {
     if (headerRef.current) observer.observe(headerRef.current);
     return () => observer.disconnect();
   }, []);
-
+ 
   return (
-    <section id="projects" className="bg-white py-20 px-4 sm:px-6 lg:px-12">
-      <div className="max-w-7xl mx-auto">
-
-        {/* Header row */}
-        <div
-          ref={headerRef}
-          className="flex items-end justify-between mb-10"
-          style={{
-            opacity: headerVisible ? 1 : 0,
-            transform: headerVisible ? "translateY(0)" : "translateY(20px)",
-            transition: "opacity 0.6s ease, transform 0.6s ease",
-          }}
-        >
-          <div>
-            <p className="text-[#C9A227] text-xs font-semibold tracking-[0.25em] uppercase mb-2">
-              OUR WORK
-            </p>
-            <h2 className="text-3xl sm:text-4xl font-extrabold text-gray-900 tracking-tight">
-              RECENT PROJECTS
-            </h2>
+    <>
+      <section id="projects" className="bg-white py-20 px-4 sm:px-6 lg:px-12">
+        <div className="max-w-7xl mx-auto">
+          <div
+            ref={headerRef}
+            className="flex items-end justify-between mb-10"
+            style={{
+              opacity: headerVisible ? 1 : 0,
+              transform: headerVisible ? "translateY(0)" : "translateY(20px)",
+              transition: "opacity 0.6s ease, transform 0.6s ease",
+            }}
+          >
+            <div>
+              <p className="text-[#C9A227] text-xs font-semibold tracking-[0.25em] uppercase mb-2">OUR WORK</p>
+              <h2 className="text-3xl sm:text-4xl font-extrabold text-gray-900 tracking-tight">RECENT PROJECTS</h2>
+            </div>
+            <button
+              onClick={() => setGalleryOpen(true)}
+              className="hidden sm:inline-flex items-center gap-2 border border-[#C9A227] text-[#C9A227] hover:bg-[#C9A227] hover:text-black text-[11px] font-bold tracking-[0.15em] uppercase px-5 py-2.5 transition-colors duration-300"
+            >
+              VIEW ALL PROJECTS
+            </button>
           </div>
-
-          <a
-            href="#"
-            className="hidden sm:inline-flex items-center gap-2 border border-[#C9A227] text-[#C9A227] hover:bg-[#C9A227] hover:text-black text-[11px] font-bold tracking-[0.15em] uppercase px-5 py-2.5 transition-colors duration-300"
-          >
-            VIEW ALL PROJECTS
-          </a>
+ 
+          <div className="flex gap-4">
+            {projects.map((project, i) => (
+              <ProjectCard key={project.title} project={project} index={i} />
+            ))}
+          </div>
+ 
+          <div className="mt-8 flex justify-center sm:hidden">
+            <button
+              onClick={() => setGalleryOpen(true)}
+              className="inline-flex items-center gap-2 border border-[#C9A227] text-[#C9A227] text-[11px] font-bold tracking-[0.15em] uppercase px-5 py-2.5"
+            >
+              VIEW ALL PROJECTS
+            </button>
+          </div>
         </div>
-
-        {/* Cards */}
-        <div className="flex gap-4">
-          {projects.map((project, i) => (
-            <ProjectCard key={project.title} project={project} index={i} />
-          ))}
-        </div>
-
-        {/* Mobile CTA */}
-        <div className="mt-8 flex justify-center sm:hidden">
-          <a
-            href="#"
-            className="inline-flex items-center gap-2 border border-[#C9A227] text-[#C9A227] text-[11px] font-bold tracking-[0.15em] uppercase px-5 py-2.5"
-          >
-            VIEW ALL PROJECTS
-          </a>
-        </div>
-      </div>
-    </section>
+      </section>
+ 
+      <Gallery isOpen={galleryOpen} onClose={() => setGalleryOpen(false)} />
+    </>
   );
 }
+ 
