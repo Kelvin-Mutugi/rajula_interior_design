@@ -168,8 +168,8 @@ export default function Footer() {
         {/* Bottom bar */}
         <div className="border-t border-white/10 pt-6 text-center">
         
-          <p className="text-gray-500 text-xs tracking-wide">
-            <a href="https://www.budgetcodesolutions.top/">Designed by Budgetcode Solutions</a>
+          <p className="text-gray-500 text-xs tracking-wide hover:text-[#C9A227] transition-colors duration-200">
+            <a href="https://www.budgetcodesolutions.top/">Designed & Developed by Budgetcode Solutions</a>
           </p>
           <p className="text-gray-500 text-xs tracking-wide">
             © {new Date().getFullYear()} Rajula's Interior. All Rights Reserved.
