@@ -75,7 +75,7 @@ export default function Footer() {
                 { Icon: FacebookIcon, href: "#" },
                 { Icon: InstagramIcon, href: "#" },
                 { Icon: TikTokIcon, href: "#" },
-                { Icon: WhatsAppIcon, href: "https://wa.me/" },
+                { Icon: WhatsAppIcon, href: "https://wa.me/254795549913" },
               ].map(({ Icon, href }, i) => (
                 <a
                   key={i}
@@ -138,18 +138,18 @@ export default function Footer() {
               <li className="flex items-start gap-3">
                 <Phone size={15} className="text-[#C9A227] mt-0.5 flex-shrink-0" />
                 <a href="tel:+254795549913" className="text-gray-400 text-sm hover:text-[#C9A227] transition-colors duration-200">
-                  +254 795 549 913
+                  0751402328 / 0795549913
                 </a>
               </li>
               <li className="flex items-start gap-3">
                 <Mail size={15} className="text-[#C9A227] mt-0.5 flex-shrink-0" />
-                <a href="mailto:info@rajulasinterior.co.ke" className="text-gray-400 text-sm hover:text-[#C9A227] transition-colors duration-200 break-all">
-                  info@rajulasinterior.co.ke
+                <a href="mailto:opondokennedy849@gmail.com" className="text-gray-400 text-sm hover:text-[#C9A227] transition-colors duration-200 break-all">
+                  opondokennedy849@gmail.com 
                 </a>
               </li>
               <li className="flex items-start gap-3">
                 <MapPin size={15} className="text-[#C9A227] mt-0.5 flex-shrink-0" />
-                <span className="text-gray-400 text-sm">Nairobi, Kenya</span>
+                <span className="text-gray-400 text-sm">Location , Nairobi industrial area</span>
               </li>
             </ul>
 
@@ -169,7 +169,7 @@ export default function Footer() {
         <div className="border-t border-white/10 pt-6 text-center">
         
           <p className="text-gray-500 text-xs tracking-wide hover:text-[#C9A227] transition-colors duration-200">
-            <a href="https://www.budgetcodesolutions.top/">Designed & Developed by Budgetcode Solutions</a>
+            <a href="https://www.budgetcodesolutions.top/">Designed by Budgetcode Solutions</a>
           </p>
           <p className="text-gray-500 text-xs tracking-wide">
             © {new Date().getFullYear()} Rajula's Interior. All Rights Reserved.
