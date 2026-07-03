@@ -84,8 +84,7 @@ export default function Hero() {
 
           {/* Subtext */}
           <p className="text-gray-300 text-sm leading-relaxed mb-8 max-w-sm">
-            Rajula's Interior is your trusted partner in modern
-            <br />
+            Signature crafts Builders are your trusted partner in modern
             interior design for homes and offices.
             <br />
             Quality work, perfect finish, every time.

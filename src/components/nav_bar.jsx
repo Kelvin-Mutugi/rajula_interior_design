@@ -1,4 +1,5 @@
 import { useState, useEffect } from "react";
+import Logo from "../assets/logo.jpg"
 
 const NAV_LINKS = [
   { label: "HOME", href: "#" },
@@ -32,15 +33,16 @@ export default function Navbar() {
           {/* Logo */}
           <a href="#home" className="flex items-center gap-2 flex-shrink-0">
             <div className="w-10 h-10 flex items-center justify-center">
-              <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg" className="w-10 h-10">
+              {/* <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg" className="w-10 h-10">
                 <polygon points="24,4 44,20 44,44 4,44 4,20" stroke="#C9A227" strokeWidth="2.5" fill="none" />
                 <polygon points="24,12 38,23 38,40 10,40 10,23" stroke="#C9A227" strokeWidth="2" fill="none" />
                 <rect x="19" y="30" width="10" height="10" stroke="#C9A227" strokeWidth="2" fill="none" />
-              </svg>
+              </svg> */}
+              <img src={Logo} alt="logo" />
             </div>
             <div className="leading-tight">
-              <div className="text-[#C9A227] font-bold text-lg tracking-widest uppercase">RAJULA'S</div>
-              <div className="text-white text-[10px] tracking-[0.35em] uppercase font-light -mt-0.5">INTERIOR</div>
+              <div className="text-[#C9A227] font-bold text-lg tracking-widest uppercase">SIGNATURE CRAFTS</div>
+              <div className="text-white text-[10px] tracking-[0.35em] uppercase font-light -mt-0.5">BUILDERS</div>
             </div>
           </a>
 
