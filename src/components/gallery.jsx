@@ -48,6 +48,73 @@ import image44 from "../images/image44.webp";
 import image45 from "../images/image45.webp";
 import image46 from "../images/image46.webp";
 import image47 from "../images/image47.webp";
+import image48 from "../images/image48.webp";
+import image49 from "../images/image49.webp";
+import image50 from "../images/image50.webp";
+import image51 from "../images/image51.webp";
+import image52 from "../images/image52.webp";
+import image53 from "../images/image53.webp";
+import image54 from "../images/image54.webp";
+import image55 from "../images/image55.webp";
+import image56 from "../images/image56.webp";
+import image57 from "../images/image57.webp";
+import image58 from "../images/image58.webp";
+import image59 from "../images/image59.webp";
+import image60 from "../images/image60.webp";
+import image61 from "../images/image61.webp";
+import image62 from "../images/image62.webp";
+import image63 from "../images/image63.webp";
+import image64 from "../images/image64.webp";
+import image65 from "../images/image65.webp";
+import image66 from "../images/image66.webp";
+import image67 from "../images/image67.webp";
+import image68 from "../images/image68.webp";
+import image69 from "../images/image69.webp";
+import image70 from "../images/image70.webp";
+import image71 from "../images/image71.webp";
+import image72 from "../images/image72.webp";
+import image73 from "../images/image73.webp";
+import image74 from "../images/image74.webp";
+import image75 from "../images/image75.webp";
+import image76 from "../images/image76.webp";
+import image77 from "../images/image77.webp";
+import image78 from "../images/image78.webp";
+import image79 from "../images/image79.webp";
+import image80 from "../images/image80.webp";
+import image81 from "../images/image81.webp";
+import image82 from "../images/image82.webp";
+import image83 from "../images/image83.webp";
+import image84 from "../images/image84.webp";
+import image85 from "../images/image85.webp";
+import image86 from "../images/image86.webp";
+import image87 from "../images/image87.webp";
+import image88 from "../images/image88.webp";
+import image89 from "../images/image89.webp";
+import image90 from "../images/image90.webp";
+import image91 from "../images/image91.webp";
+import image92 from "../images/image92.webp";
+import image93 from "../images/image93.webp";
+import image94 from "../images/image94.webp";
+import image95 from "../images/image95.webp";
+import image96 from "../images/image96.webp";
+import image97 from "../images/image97.webp";
+import image98 from "../images/image98.webp";
+import image99 from "../images/image99.webp";
+import image100 from "../images/image100.webp";
+import image101 from "../images/image101.webp";
+import image102 from "../images/image102.webp";
+import image103 from "../images/image103.webp";
+import image104 from "../images/image104.webp";
+import image105 from "../images/image105.webp";
+import image106 from "../images/image106.webp";
+import image107 from "../images/image107.webp";
+import image108 from "../images/image108.webp";
+import image109 from "../images/image109.webp";
+import image110 from "../images/image110.webp";
+import image111 from "../images/image111.webp";
+import image112 from "../images/image112.webp";
+import image113 from "../images/image113.webp";
+
 
 // ─── Projects ────────────────────────────────────────────────────────────────
 // Category is commented out for now — assign once images are identified.
@@ -105,6 +172,72 @@ const projects = [
   { id: 45, image: image45 /* category: "WAINSCOTING"*/ },
   { id: 46, image: image46 /* category: "TV STANDS"  */ },
   { id: 47, image: image47 /* category: "KITCHEN"    */ },
+  { id: 48, image: image48 /* category: "KITCHEN"    */ },
+{ id: 49, image: image49 /* category: "KITCHEN"    */ },
+{ id: 50, image: image50 /* category: "KITCHEN"    */ },
+{ id: 51, image: image51 /* category: "KITCHEN"    */ },
+{ id: 52, image: image52 /* category: "KITCHEN"    */ },
+{ id: 53, image: image53 /* category: "KITCHEN"    */ },
+{ id: 54, image: image54 /* category: "KITCHEN"    */ },
+{ id: 55, image: image55 /* category: "KITCHEN"    */ },
+{ id: 56, image: image56 /* category: "KITCHEN"    */ },
+{ id: 57, image: image57 /* category: "KITCHEN"    */ },
+{ id: 58, image: image58 /* category: "KITCHEN"    */ },
+{ id: 59, image: image59 /* category: "KITCHEN"    */ },
+{ id: 60, image: image60 /* category: "KITCHEN"    */ },
+{ id: 61, image: image61 /* category: "KITCHEN"    */ },
+{ id: 62, image: image62 /* category: "KITCHEN"    */ },
+{ id: 63, image: image63 /* category: "KITCHEN"    */ },
+{ id: 64, image: image64 /* category: "KITCHEN"    */ },
+{ id: 65, image: image65 /* category: "KITCHEN"    */ },
+{ id: 66, image: image66 /* category: "KITCHEN"    */ },
+{ id: 67, image: image67 /* category: "KITCHEN"    */ },
+{ id: 68, image: image68 /* category: "KITCHEN"    */ },
+{ id: 69, image: image69 /* category: "KITCHEN"    */ },
+{ id: 70, image: image70 /* category: "KITCHEN"    */ },
+{ id: 71, image: image71 /* category: "KITCHEN"    */ },
+{ id: 72, image: image72 /* category: "KITCHEN"    */ },
+{ id: 73, image: image73 /* category: "KITCHEN"    */ },
+{ id: 74, image: image74 /* category: "KITCHEN"    */ },
+{ id: 75, image: image75 /* category: "KITCHEN"    */ },
+{ id: 76, image: image76 /* category: "KITCHEN"    */ },
+{ id: 77, image: image77 /* category: "KITCHEN"    */ },
+{ id: 78, image: image78 /* category: "KITCHEN"    */ },
+{ id: 79, image: image79 /* category: "KITCHEN"    */ },
+{ id: 80, image: image80 /* category: "KITCHEN"    */ },
+{ id: 81, image: image81 /* category: "KITCHEN"    */ },
+{ id: 82, image: image82 /* category: "KITCHEN"    */ },
+{ id: 83, image: image83 /* category: "KITCHEN"    */ },
+{ id: 84, image: image84 /* category: "KITCHEN"    */ },
+{ id: 85, image: image85 /* category: "KITCHEN"    */ },
+{ id: 86, image: image86 /* category: "KITCHEN"    */ },
+{ id: 87, image: image87 /* category: "KITCHEN"    */ },
+{ id: 88, image: image88 /* category: "KITCHEN"    */ },
+{ id: 89, image: image89 /* category: "KITCHEN"    */ },
+{ id: 90, image: image90 /* category: "KITCHEN"    */ },
+{ id: 91, image: image91 /* category: "KITCHEN"    */ },
+{ id: 92, image: image92 /* category: "KITCHEN"    */ },
+{ id: 93, image: image93 /* category: "KITCHEN"    */ },
+{ id: 94, image: image94 /* category: "KITCHEN"    */ },
+{ id: 95, image: image95 /* category: "KITCHEN"    */ },
+{ id: 96, image: image96 /* category: "KITCHEN"    */ },
+{ id: 97, image: image97 /* category: "KITCHEN"    */ },
+{ id: 98, image: image98 /* category: "KITCHEN"    */ },
+{ id: 99, image: image99 /* category: "KITCHEN"    */ },
+{ id: 100, image: image100 /* category: "KITCHEN"    */ },
+{ id: 101, image: image101 /* category: "KITCHEN"    */ },
+{ id: 102, image: image102 /* category: "KITCHEN"    */ },
+{ id: 103, image: image103 /* category: "KITCHEN"    */ },
+{ id: 104, image: image104 /* category: "KITCHEN"    */ },
+{ id: 105, image: image105 /* category: "KITCHEN"    */ },
+{ id: 106, image: image106 /* category: "KITCHEN"    */ },
+{ id: 107, image: image107 /* category: "KITCHEN"    */ },
+{ id: 108, image: image108 /* category: "KITCHEN"    */ },
+{ id: 109, image: image109 /* category: "KITCHEN"    */ },
+{ id: 110, image: image110 /* category: "KITCHEN"    */ },
+{ id: 111, image: image111 /* category: "KITCHEN"    */ },
+{ id: 112, image: image112 /* category: "KITCHEN"    */ },
+{ id: 113, image: image113 /* category: "KITCHEN"    */ },
 ];
 
 export default function Gallery({ isOpen, onClose }) {
