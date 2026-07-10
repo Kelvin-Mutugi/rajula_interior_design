@@ -115,7 +115,6 @@ import image111 from "../images/image111.webp";
 import image112 from "../images/image112.webp";
 import image113 from "../images/image113.webp";
 
-
 // ─── Projects ────────────────────────────────────────────────────────────────
 // Category is commented out for now — assign once images are identified.
 // To re-enable filtering, uncomment the `categories` array, the filter bar JSX,
@@ -125,15 +124,15 @@ import image113 from "../images/image113.webp";
 // const categories = ["ALL", "KITCHEN", "WARDROBE", "CEILING", "TV STANDS", "TILING", "WAINSCOTING"];
 
 const projects = [
-  { id: 1,  image: image1  /* category: "KITCHEN"    */ },
-  { id: 2,  image: image2  /* category: "WARDROBE"   */ },
-  { id: 3,  image: image3  /* category: "TV STANDS"  */ },
-  { id: 4,  image: image4  /* category: "KITCHEN"    */ },
-  { id: 5,  image: image5  /* category: "CEILING"    */ },
-  { id: 6,  image: image6  /* category: "KITCHEN"    */ },
-  { id: 7,  image: image7  /* category: "TILING"     */ },
-  { id: 8,  image: image8  /* category: "WARDROBE"   */ },
-  { id: 9,  image: image9  /* category: "WAINSCOTING"*/ },
+  { id: 1, image: image1 /* category: "KITCHEN"    */ },
+  { id: 2, image: image2 /* category: "WARDROBE"   */ },
+  { id: 3, image: image3 /* category: "TV STANDS"  */ },
+  { id: 4, image: image4 /* category: "KITCHEN"    */ },
+  { id: 5, image: image5 /* category: "CEILING"    */ },
+  { id: 6, image: image6 /* category: "KITCHEN"    */ },
+  { id: 7, image: image7 /* category: "TILING"     */ },
+  { id: 8, image: image8 /* category: "WARDROBE"   */ },
+  { id: 9, image: image9 /* category: "WAINSCOTING"*/ },
   { id: 10, image: image10 /* category: "TV STANDS"  */ },
   { id: 11, image: image11 /* category: "CEILING"    */ },
   { id: 12, image: image12 /* category: "KITCHEN"    */ },
@@ -173,71 +172,71 @@ const projects = [
   { id: 46, image: image46 /* category: "TV STANDS"  */ },
   { id: 47, image: image47 /* category: "KITCHEN"    */ },
   { id: 48, image: image48 /* category: "KITCHEN"    */ },
-{ id: 49, image: image49 /* category: "KITCHEN"    */ },
-{ id: 50, image: image50 /* category: "KITCHEN"    */ },
-{ id: 51, image: image51 /* category: "KITCHEN"    */ },
-{ id: 52, image: image52 /* category: "KITCHEN"    */ },
-{ id: 53, image: image53 /* category: "KITCHEN"    */ },
-{ id: 54, image: image54 /* category: "KITCHEN"    */ },
-{ id: 55, image: image55 /* category: "KITCHEN"    */ },
-{ id: 56, image: image56 /* category: "KITCHEN"    */ },
-{ id: 57, image: image57 /* category: "KITCHEN"    */ },
-{ id: 58, image: image58 /* category: "KITCHEN"    */ },
-{ id: 59, image: image59 /* category: "KITCHEN"    */ },
-{ id: 60, image: image60 /* category: "KITCHEN"    */ },
-{ id: 61, image: image61 /* category: "KITCHEN"    */ },
-{ id: 62, image: image62 /* category: "KITCHEN"    */ },
-{ id: 63, image: image63 /* category: "KITCHEN"    */ },
-{ id: 64, image: image64 /* category: "KITCHEN"    */ },
-{ id: 65, image: image65 /* category: "KITCHEN"    */ },
-{ id: 66, image: image66 /* category: "KITCHEN"    */ },
-{ id: 67, image: image67 /* category: "KITCHEN"    */ },
-{ id: 68, image: image68 /* category: "KITCHEN"    */ },
-{ id: 69, image: image69 /* category: "KITCHEN"    */ },
-{ id: 70, image: image70 /* category: "KITCHEN"    */ },
-{ id: 71, image: image71 /* category: "KITCHEN"    */ },
-{ id: 72, image: image72 /* category: "KITCHEN"    */ },
-{ id: 73, image: image73 /* category: "KITCHEN"    */ },
-{ id: 74, image: image74 /* category: "KITCHEN"    */ },
-{ id: 75, image: image75 /* category: "KITCHEN"    */ },
-{ id: 76, image: image76 /* category: "KITCHEN"    */ },
-{ id: 77, image: image77 /* category: "KITCHEN"    */ },
-{ id: 78, image: image78 /* category: "KITCHEN"    */ },
-{ id: 79, image: image79 /* category: "KITCHEN"    */ },
-{ id: 80, image: image80 /* category: "KITCHEN"    */ },
-{ id: 81, image: image81 /* category: "KITCHEN"    */ },
-{ id: 82, image: image82 /* category: "KITCHEN"    */ },
-{ id: 83, image: image83 /* category: "KITCHEN"    */ },
-{ id: 84, image: image84 /* category: "KITCHEN"    */ },
-{ id: 85, image: image85 /* category: "KITCHEN"    */ },
-{ id: 86, image: image86 /* category: "KITCHEN"    */ },
-{ id: 87, image: image87 /* category: "KITCHEN"    */ },
-{ id: 88, image: image88 /* category: "KITCHEN"    */ },
-{ id: 89, image: image89 /* category: "KITCHEN"    */ },
-{ id: 90, image: image90 /* category: "KITCHEN"    */ },
-{ id: 91, image: image91 /* category: "KITCHEN"    */ },
-{ id: 92, image: image92 /* category: "KITCHEN"    */ },
-{ id: 93, image: image93 /* category: "KITCHEN"    */ },
-{ id: 94, image: image94 /* category: "KITCHEN"    */ },
-{ id: 95, image: image95 /* category: "KITCHEN"    */ },
-{ id: 96, image: image96 /* category: "KITCHEN"    */ },
-{ id: 97, image: image97 /* category: "KITCHEN"    */ },
-{ id: 98, image: image98 /* category: "KITCHEN"    */ },
-{ id: 99, image: image99 /* category: "KITCHEN"    */ },
-{ id: 100, image: image100 /* category: "KITCHEN"    */ },
-{ id: 101, image: image101 /* category: "KITCHEN"    */ },
-{ id: 102, image: image102 /* category: "KITCHEN"    */ },
-{ id: 103, image: image103 /* category: "KITCHEN"    */ },
-{ id: 104, image: image104 /* category: "KITCHEN"    */ },
-{ id: 105, image: image105 /* category: "KITCHEN"    */ },
-{ id: 106, image: image106 /* category: "KITCHEN"    */ },
-{ id: 107, image: image107 /* category: "KITCHEN"    */ },
-{ id: 108, image: image108 /* category: "KITCHEN"    */ },
-{ id: 109, image: image109 /* category: "KITCHEN"    */ },
-{ id: 110, image: image110 /* category: "KITCHEN"    */ },
-{ id: 111, image: image111 /* category: "KITCHEN"    */ },
-{ id: 112, image: image112 /* category: "KITCHEN"    */ },
-{ id: 113, image: image113 /* category: "KITCHEN"    */ },
+  { id: 49, image: image49 /* category: "KITCHEN"    */ },
+  { id: 50, image: image50 /* category: "KITCHEN"    */ },
+  { id: 51, image: image51 /* category: "KITCHEN"    */ },
+  { id: 52, image: image52 /* category: "KITCHEN"    */ },
+  { id: 53, image: image53 /* category: "KITCHEN"    */ },
+  { id: 54, image: image54 /* category: "KITCHEN"    */ },
+  { id: 55, image: image55 /* category: "KITCHEN"    */ },
+  { id: 56, image: image56 /* category: "KITCHEN"    */ },
+  { id: 57, image: image57 /* category: "KITCHEN"    */ },
+  { id: 58, image: image58 /* category: "KITCHEN"    */ },
+  { id: 59, image: image59 /* category: "KITCHEN"    */ },
+  { id: 60, image: image60 /* category: "KITCHEN"    */ },
+  { id: 61, image: image61 /* category: "KITCHEN"    */ },
+  { id: 62, image: image62 /* category: "KITCHEN"    */ },
+  { id: 63, image: image63 /* category: "KITCHEN"    */ },
+  { id: 64, image: image64 /* category: "KITCHEN"    */ },
+  { id: 65, image: image65 /* category: "KITCHEN"    */ },
+  { id: 66, image: image66 /* category: "KITCHEN"    */ },
+  { id: 67, image: image67 /* category: "KITCHEN"    */ },
+  { id: 68, image: image68 /* category: "KITCHEN"    */ },
+  { id: 69, image: image69 /* category: "KITCHEN"    */ },
+  { id: 70, image: image70 /* category: "KITCHEN"    */ },
+  { id: 71, image: image71 /* category: "KITCHEN"    */ },
+  { id: 72, image: image72 /* category: "KITCHEN"    */ },
+  { id: 73, image: image73 /* category: "KITCHEN"    */ },
+  { id: 74, image: image74 /* category: "KITCHEN"    */ },
+  { id: 75, image: image75 /* category: "KITCHEN"    */ },
+  { id: 76, image: image76 /* category: "KITCHEN"    */ },
+  { id: 77, image: image77 /* category: "KITCHEN"    */ },
+  { id: 78, image: image78 /* category: "KITCHEN"    */ },
+  { id: 79, image: image79 /* category: "KITCHEN"    */ },
+  { id: 80, image: image80 /* category: "KITCHEN"    */ },
+  { id: 81, image: image81 /* category: "KITCHEN"    */ },
+  { id: 82, image: image82 /* category: "KITCHEN"    */ },
+  { id: 83, image: image83 /* category: "KITCHEN"    */ },
+  { id: 84, image: image84 /* category: "KITCHEN"    */ },
+  { id: 85, image: image85 /* category: "KITCHEN"    */ },
+  { id: 86, image: image86 /* category: "KITCHEN"    */ },
+  { id: 87, image: image87 /* category: "KITCHEN"    */ },
+  { id: 88, image: image88 /* category: "KITCHEN"    */ },
+  { id: 89, image: image89 /* category: "KITCHEN"    */ },
+  { id: 90, image: image90 /* category: "KITCHEN"    */ },
+  { id: 91, image: image91 /* category: "KITCHEN"    */ },
+  { id: 92, image: image92 /* category: "KITCHEN"    */ },
+  { id: 93, image: image93 /* category: "KITCHEN"    */ },
+  { id: 94, image: image94 /* category: "KITCHEN"    */ },
+  { id: 95, image: image95 /* category: "KITCHEN"    */ },
+  { id: 96, image: image96 /* category: "KITCHEN"    */ },
+  { id: 97, image: image97 /* category: "KITCHEN"    */ },
+  { id: 98, image: image98 /* category: "KITCHEN"    */ },
+  { id: 99, image: image99 /* category: "KITCHEN"    */ },
+  { id: 100, image: image100 /* category: "KITCHEN"    */ },
+  { id: 101, image: image101 /* category: "KITCHEN"    */ },
+  { id: 102, image: image102 /* category: "KITCHEN"    */ },
+  { id: 103, image: image103 /* category: "KITCHEN"    */ },
+  { id: 104, image: image104 /* category: "KITCHEN"    */ },
+  { id: 105, image: image105 /* category: "KITCHEN"    */ },
+  { id: 106, image: image106 /* category: "KITCHEN"    */ },
+  { id: 107, image: image107 /* category: "KITCHEN"    */ },
+  { id: 108, image: image108 /* category: "KITCHEN"    */ },
+  { id: 109, image: image109 /* category: "KITCHEN"    */ },
+  { id: 110, image: image110 /* category: "KITCHEN"    */ },
+  { id: 111, image: image111 /* category: "KITCHEN"    */ },
+  { id: 112, image: image112 /* category: "KITCHEN"    */ },
+  { id: 113, image: image113 /* category: "KITCHEN"    */ },
 ];
 
 export default function Gallery({ isOpen, onClose }) {
@@ -246,7 +245,9 @@ export default function Gallery({ isOpen, onClose }) {
   // Lock body scroll when open
   useEffect(() => {
     document.body.style.overflow = isOpen ? "hidden" : "";
-    return () => { document.body.style.overflow = ""; };
+    return () => {
+      document.body.style.overflow = "";
+    };
   }, [isOpen]);
 
   // Keyboard navigation
@@ -255,8 +256,10 @@ export default function Gallery({ isOpen, onClose }) {
     const handler = (e) => {
       if (e.key === "Escape") lightbox !== null ? setLightbox(null) : onClose();
       if (lightbox !== null) {
-        if (e.key === "ArrowRight") setLightbox((p) => (p + 1) % projects.length);
-        if (e.key === "ArrowLeft")  setLightbox((p) => (p - 1 + projects.length) % projects.length);
+        if (e.key === "ArrowRight")
+          setLightbox((p) => (p + 1) % projects.length);
+        if (e.key === "ArrowLeft")
+          setLightbox((p) => (p - 1 + projects.length) % projects.length);
       }
     };
     window.addEventListener("keydown", handler);
@@ -267,12 +270,15 @@ export default function Gallery({ isOpen, onClose }) {
 
   return (
     <div className="fixed inset-0 z-50 bg-[#0d0d0d] overflow-y-auto">
-
       {/* ── Sticky header ── */}
       <div className="sticky top-0 z-10 bg-[#0d0d0d]/95 backdrop-blur border-b border-white/10 px-4 sm:px-8 py-4 flex items-center justify-between">
         <div>
-          <p className="text-[#C9A227] text-[10px] font-semibold tracking-[0.25em] uppercase">OUR WORK</p>
-          <h2 className="text-white text-2xl sm:text-3xl font-extrabold tracking-tight">PROJECT GALLERY</h2>
+          <p className="text-[#C9A227] text-[10px] font-semibold tracking-[0.25em] uppercase">
+            OUR WORK
+          </p>
+          <h2 className="text-white text-2xl sm:text-3xl font-extrabold tracking-tight">
+            PROJECT GALLERY
+          </h2>
         </div>
         <button
           onClick={onClose}
@@ -301,7 +307,12 @@ export default function Gallery({ isOpen, onClose }) {
       <div className="px-4 sm:px-8 py-8 pb-16">
         <div className="columns-1 sm:columns-2 lg:columns-3 xl:columns-4 gap-4">
           {projects.map((project, i) => (
-            <GalleryCard key={project.id} project={project} index={i} onClick={() => setLightbox(i)} />
+            <GalleryCard
+              key={project.id}
+              project={project}
+              index={i}
+              onClick={() => setLightbox(i)}
+            />
           ))}
         </div>
       </div>
@@ -323,7 +334,10 @@ export default function Gallery({ isOpen, onClose }) {
           <button
             className="absolute left-4 w-10 h-10 rounded-full border border-white/20 flex items-center justify-center
               text-gray-400 hover:border-[#C9A227] hover:text-[#C9A227] transition-colors duration-200"
-            onClick={(e) => { e.stopPropagation(); setLightbox((p) => (p - 1 + projects.length) % projects.length); }}
+            onClick={(e) => {
+              e.stopPropagation();
+              setLightbox((p) => (p - 1 + projects.length) % projects.length);
+            }}
           >
             <ChevronLeft size={20} />
           </button>
@@ -338,13 +352,18 @@ export default function Gallery({ isOpen, onClose }) {
               className="w-full max-h-[80vh] object-contain rounded-lg"
               style={{ animation: "fadeIn 0.25s ease" }}
             />
-            <p className="text-gray-500 text-xs">{lightbox + 1} / {projects.length}</p>
+            <p className="text-gray-500 text-xs">
+              {lightbox + 1} / {projects.length}
+            </p>
           </div>
 
           <button
             className="absolute right-4 w-10 h-10 rounded-full border border-white/20 flex items-center justify-center
               text-gray-400 hover:border-[#C9A227] hover:text-[#C9A227] transition-colors duration-200"
-            onClick={(e) => { e.stopPropagation(); setLightbox((p) => (p + 1) % projects.length); }}
+            onClick={(e) => {
+              e.stopPropagation();
+              setLightbox((p) => (p + 1) % projects.length);
+            }}
           >
             <ChevronRight size={20} />
           </button>
@@ -363,8 +382,11 @@ function GalleryCard({ project, index, onClick }) {
 
   useEffect(() => {
     const observer = new IntersectionObserver(
-      ([entry]) => { if (entry.isIntersecting) setTimeout(() => setVisible(true), (index % 4) * 60); },
-      { threshold: 0.05 }
+      ([entry]) => {
+        if (entry.isIntersecting)
+          setTimeout(() => setVisible(true), (index % 4) * 60);
+      },
+      { threshold: 0.05 },
     );
     if (ref.current) observer.observe(ref.current);
     return () => observer.disconnect();
@@ -387,7 +409,10 @@ function GalleryCard({ project, index, onClick }) {
         src={project.image}
         alt={`Project ${project.id}`}
         className="w-full object-cover"
-        style={{ transform: hovered ? "scale(1.06)" : "scale(1)", transition: "transform 0.5s ease" }}
+        style={{
+          transform: hovered ? "scale(1.06)" : "scale(1)",
+          transition: "transform 0.5s ease",
+        }}
       />
 
       {/* Hover overlay */}
@@ -398,7 +423,13 @@ function GalleryCard({ project, index, onClick }) {
           transition: "background 0.35s ease",
         }}
       >
-        <div style={{ opacity: hovered ? 1 : 0, transform: hovered ? "scale(1)" : "scale(0.75)", transition: "all 0.3s ease" }}>
+        <div
+          style={{
+            opacity: hovered ? 1 : 0,
+            transform: hovered ? "scale(1)" : "scale(0.75)",
+            transition: "all 0.3s ease",
+          }}
+        >
           <div className="w-11 h-11 rounded-full bg-[#C9A227] flex items-center justify-center">
             <ZoomIn size={20} className="text-black" />
           </div>
