@@ -140,13 +140,14 @@ export default function Footer() {
               <li className="flex items-start gap-3">
                 <Phone size={15} className="text-[#C9A227] mt-0.5 flex-shrink-0" />
                 <a href="tel:+254795549913" className="text-gray-400 text-sm hover:text-[#C9A227] transition-colors duration-200">
-                  0751402328 / 0795549913
+                 0795549913 / 0708429425
                 </a>
               </li>
               <li className="flex items-start gap-3">
                 <Mail size={15} className="text-[#C9A227] mt-0.5 flex-shrink-0" />
                 <a href="mailto:opondokennedy849@gmail.com" className="text-gray-400 text-sm hover:text-[#C9A227] transition-colors duration-200 break-all">
-                  opondokennedy849@gmail.com 
+                  opondokennedy849@gmail.com <br />
+                  Signaturecraftsbuild@gmail.com
                 </a>
               </li>
               <li className="flex items-start gap-3">
