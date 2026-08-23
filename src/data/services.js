@@ -7,6 +7,13 @@ import {
   PanelLeft,
 } from "lucide-react";
 
+import image36 from "../images/image36.webp";
+import image37 from "../images/image37.webp";
+import image43 from "../images/image43.webp";
+import image45 from "../images/image45.webp";
+import image55 from "../images/image55.webp";
+import image103 from "../images/image103.webp";
+
 export const services = [
   {
     slug: "kitchen-cabinets",
@@ -30,26 +37,44 @@ export const services = [
       {
         title: "Luxe Family Kitchen",
         category: "Contemporary cabinetry",
-        image:
-          "https://images.unsplash.com/photo-1484154218962-a197022b5858?auto=format&fit=crop&w=900&q=80",
+        image: image36,
         description:
           "A warm, custom layout with soft-close storage and a clean, modern finish.",
       },
       {
         title: "Compact Utility Kitchen",
         category: "Space optimization",
-        image:
-          "https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?auto=format&fit=crop&w=900&q=80",
+        image: image37,
         description:
           "Built for efficiency with smart vertical storage and durable surfaces.",
       },
       {
-        title: "Minimal Island Focus",
+        title: "Modern Kitchen Install",
         category: "Designer storage",
-        image:
-          "https://images.unsplash.com/photo-1556911220-bff31c812dba?auto=format&fit=crop&w=900&q=80",
+        image: image43,
         description:
-          "A statement island and tailored cabinetry designed for functionality and flow.",
+          "A statement layout with tailored cabinetry designed for everyday functionality and flow.",
+      },
+      {
+        title: "Premium Kitchen Finish",
+        category: "Custom cabinetry",
+        image: image45,
+        description:
+          "A refined finish that balances texture, storage, and a polished modern aesthetic.",
+      },
+      {
+        title: "Elegant Storage Wall",
+        category: "Kitchen organization",
+        image: image55,
+        description:
+          "Designed to maximize practicality while keeping the space warm, seamless, and inviting.",
+      },
+      {
+        title: "Signature Kitchen Detail",
+        category: "Luxury interiors",
+        image: image103,
+        description:
+          "A high-end kitchen concept focused on premium craftsmanship and a clean architectural feel.",
       },
     ],
   },
