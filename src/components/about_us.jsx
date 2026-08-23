@@ -1,5 +1,6 @@
 import { useEffect, useRef, useState } from "react";
 import { ShieldCheck, Users, Clock, Star, Smile, Briefcase, Award, MapPin } from "lucide-react";
+import ContactSection from "./contact_section";
 
 const stats = [
   { icon: Smile,    value: "500+", label: "HAPPY CLIENTS" },
@@ -152,6 +153,8 @@ export default function AboutUs() {
       </div>
     </section>
     <StatsBar />
+    <ContactSection />
+    
     </>
   );
 }

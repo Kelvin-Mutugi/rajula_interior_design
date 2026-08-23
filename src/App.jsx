@@ -6,6 +6,7 @@ import Services from "./components/services_section";
 import ServiceDetailPage from "./components/service_detail_page";
 import RecentProjects from "./components/recent_projects";
 import AboutUs from "./components/about_us";
+import ContactSection from "./components/contact_section";
 import Footer from "./components/footer_section";
 
 function LandingPage() {
@@ -16,6 +17,7 @@ function LandingPage() {
       <Services />
       <RecentProjects />
       <AboutUs />
+      {/* <ContactSection /> */}
       <Footer />
     </>
   );
