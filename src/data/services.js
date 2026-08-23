@@ -7,12 +7,36 @@ import {
   PanelLeft,
 } from "lucide-react";
 
+import image1 from "../images/image1.webp";
+import image2 from "../images/image2.webp";
+import image3 from "../images/image3.webp";
+import image4 from "../images/image4.webp";
+import image5 from "../images/image5.webp";
+import image6 from "../images/image6.webp";
+import image25 from "../images/image25.webp";
+import image27 from "../images/image27.webp";
+import image31 from "../images/image31.webp";
 import image36 from "../images/image36.webp";
 import image37 from "../images/image37.webp";
+import image38 from "../images/image38.webp";
+import image39 from "../images/image39.webp";
+import image40 from "../images/image40.webp";
+import image41 from "../images/image41.webp";
 import image43 from "../images/image43.webp";
 import image45 from "../images/image45.webp";
+import image49 from "../images/image49.webp";
+import image52 from "../images/image52.webp";
 import image55 from "../images/image55.webp";
+import image82 from "../images/image82.webp";
+import image86 from "../images/image86.webp";
+import image87 from "../images/image87.webp";
+import image91 from "../images/image91.webp";
+import image92 from "../images/image92.webp";
+import image93 from "../images/image93.webp";
+import image95 from "../images/image95.webp";
+import image97 from "../images/image97.webp";
 import image103 from "../images/image103.webp";
+import image104 from "../images/image104.webp";
 
 export const services = [
   {
@@ -100,26 +124,37 @@ export const services = [
       {
         title: "Luxury Walk-In Wardrobe",
         category: "Built-in storage",
-        image:
-          "https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?auto=format&fit=crop&w=900&q=80",
+        image: image87,
         description:
           "A fully integrated wardrobe with hanging, shelving, and hidden organization zones.",
       },
       {
         title: "Sliding Door Design",
         category: "Modern finish",
-        image:
-          "https://images.unsplash.com/photo-1494526585095-c41746248156?auto=format&fit=crop&w=900&q=80",
+        image: image86,
         description:
           "Elegant sliding panels create a sleek, contemporary bedroom statement.",
       },
       {
         title: "Compact Storage Wall",
         category: "Small-space solution",
-        image:
-          "https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?auto=format&fit=crop&w=900&q=80",
+        image: image41,
         description:
           "Maximizes bedroom functionality while keeping a soft, minimalist aesthetic.",
+      },
+      {
+        title: "Statement Wardrobe Detail",
+        category: "Storage elegance",
+        image: image40,
+        description:
+          "A tailored storage wall that balances clean lines, convenience, and luxury.",
+      },
+      {
+        title: "Built-in Closet Finish",
+        category: "Modern wardrobe",
+        image: image39,
+        description:
+          "A polished wardrobe layout designed with practical flow and a refined bedroom finish.",
       },
     ],
   },
@@ -145,26 +180,44 @@ export const services = [
       {
         title: "Tray Ceiling Feature",
         category: "Layered architecture",
-        image:
-          "https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?auto=format&fit=crop&w=900&q=80",
+        image: image25,
         description:
           "A refined ceiling layout that adds dimension and luxury to the room.",
       },
       {
         title: "Ambient Living Room Ceiling",
         category: "Lighting integration",
-        image:
-          "https://images.unsplash.com/photo-1494526585095-c41746248156?auto=format&fit=crop&w=900&q=80",
+        image: image91,
         description:
           "Designed with concealed light lines for a warm, elevated mood.",
       },
       {
         title: "Modern Hallway Detail",
         category: "Architectural styling",
-        image:
-          "https://images.unsplash.com/photo-1484154218962-a197022b5858?auto=format&fit=crop&w=900&q=80",
+        image: image93,
         description:
           "Clean geometry and smooth surfaces create a polished transition space.",
+      },
+      {
+        title: "Textured Ceiling Finish",
+        category: "Luxury plasterwork",
+        image: image95,
+        description:
+          "A smooth architectural ceiling built for elegance, lighting balance, and room character.",
+      },
+      {
+        title: "Design Layer Detail",
+        category: "Contemporary finish",
+        image: image92,
+        description:
+          "Subtle depth and structural layering bring a premium feel to the ceiling design.",
+      },
+      {
+        title: "Ceiling Accent Feature",
+        category: "Modern styling",
+        image: image97,
+        description:
+          "A striking ceiling feature that improves the room’s overall visual proportion and mood.",
       },
     ],
   },
@@ -190,24 +243,21 @@ export const services = [
       {
         title: "Media Wall Console",
         category: "Home entertainment",
-        image:
-          "https://images.unsplash.com/photo-1494526585095-c41746248156?auto=format&fit=crop&w=900&q=80",
+        image: image82,
         description:
           "A tailored media wall that keeps electronics organized and visually clean.",
       },
       {
         title: "Living Room Feature Unit",
         category: "Statement styling",
-        image:
-          "https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?auto=format&fit=crop&w=900&q=80",
+        image: image52,
         description:
           "Balanced proportions and built-in storage create a refined focal point.",
       },
       {
         title: "Minimal TV Setup",
         category: "Streamlined finish",
-        image:
-          "https://images.unsplash.com/photo-1484154218962-a197022b5858?auto=format&fit=crop&w=900&q=80",
+        image: image49,
         description:
           "Sleek cabinetry and clean lines give the room a luxurious, uncluttered look.",
       },
@@ -235,26 +285,30 @@ export const services = [
       {
         title: "Marble Floor Finish",
         category: "Luxury flooring",
-        image:
-          "https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?auto=format&fit=crop&w=900&q=80",
+        image: image27,
         description:
           "Elegant tiling that blends sophistication, texture, and practical durability.",
       },
       {
         title: "Feature Wall Mosaic",
         category: "Designer wall tiles",
-        image:
-          "https://images.unsplash.com/photo-1494526585095-c41746248156?auto=format&fit=crop&w=900&q=80",
+        image: image31,
         description:
           "A textured statement wall that adds style and depth to the room.",
       },
       {
         title: "Bathroom Wet Area",
         category: "Waterproof finish",
-        image:
-          "https://images.unsplash.com/photo-1484154218962-a197022b5858?auto=format&fit=crop&w=900&q=80",
+        image: image38,
         description:
           "Durable installation with clean alignment and a refined modern finish.",
+      },
+      {
+        title: "Fine Tiled Detail",
+        category: "Precision finish",
+        image: image104,
+        description:
+          "Clean grout lines and carefully laid surfaces create a polished, long-lasting finish.",
       },
     ],
   },
@@ -280,26 +334,44 @@ export const services = [
       {
         title: "Hotel-Style Dining Wall",
         category: "Traditional elegance",
-        image:
-          "https://images.unsplash.com/photo-1494526585095-c41746248156?auto=format&fit=crop&w=900&q=80",
+        image: image1,
         description:
           "Layered wall paneling designed to create a more elevated dining experience.",
       },
       {
         title: "Modern Living Room Detail",
         category: "Architectural texture",
-        image:
-          "https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?auto=format&fit=crop&w=900&q=80",
+        image: image2,
         description:
           "Clean panel lines add warmth and sophistication without overwhelming the space.",
       },
       {
         title: "Premium Hallway Upgrade",
         category: "Decorative finish",
-        image:
-          "https://images.unsplash.com/photo-1484154218962-a197022b5858?auto=format&fit=crop&w=900&q=80",
+        image: image3,
         description:
           "A welcoming entryway finished with detailed paneling and soft contrast tones.",
+      },
+      {
+        title: "Warm Accent Wall",
+        category: "Interior detailing",
+        image: image4,
+        description:
+          "Subtle paneling and a soft finish create a welcoming, elevated living environment.",
+      },
+      {
+        title: "Classic Panel Feature",
+        category: "Stylish wall finish",
+        image: image5,
+        description:
+          "A refined wall treatment that adds texture, depth, and a premium sense of craftsmanship.",
+      },
+      {
+        title: "Architectural Wall Upgrade",
+        category: "Luxury detailing",
+        image: image6,
+        description:
+          "A polished panel design that brings character and sophistication to a clean interior.",
       },
     ],
   },
