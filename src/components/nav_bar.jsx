@@ -2,11 +2,11 @@ import { useState, useEffect } from "react";
 import Logo from "../assets/logo.jpg"
 
 const NAV_LINKS = [
-  { label: "HOME", href: "#" },
-  { label: "ABOUT US", href: "#about" },
-  { label: "SERVICES", href: "#services" },
-  { label: "PROJECTS", href: "#projects" },
-  { label: "GALLERY", href: "#projects" },
+  { label: "HOME", href: "/#" },
+  { label: "ABOUT US", href: "/#about" },
+  { label: "SERVICES", href: "/#services" },
+  { label: "PROJECTS", href: "/#projects" },
+  { label: "GALLERY", href: "/#projects" },
   // { label: "CONTACT", href: "#contact" },
 ];
 
