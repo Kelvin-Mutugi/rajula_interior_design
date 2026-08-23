@@ -26,6 +26,32 @@ export const services = [
       "Space-saving interior storage",
       "Professional installation and aftercare",
     ],
+    sampleWorks: [
+      {
+        title: "Luxe Family Kitchen",
+        category: "Contemporary cabinetry",
+        image:
+          "https://images.unsplash.com/photo-1484154218962-a197022b5858?auto=format&fit=crop&w=900&q=80",
+        description:
+          "A warm, custom layout with soft-close storage and a clean, modern finish.",
+      },
+      {
+        title: "Compact Utility Kitchen",
+        category: "Space optimization",
+        image:
+          "https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?auto=format&fit=crop&w=900&q=80",
+        description:
+          "Built for efficiency with smart vertical storage and durable surfaces.",
+      },
+      {
+        title: "Minimal Island Focus",
+        category: "Designer storage",
+        image:
+          "https://images.unsplash.com/photo-1556911220-bff31c812dba?auto=format&fit=crop&w=900&q=80",
+        description:
+          "A statement island and tailored cabinetry designed for functionality and flow.",
+      },
+    ],
   },
   {
     slug: "wardrobe-installation",
@@ -44,6 +70,32 @@ export const services = [
       "Functional storage optimization",
       "Neat finishes and precision fitting",
       "Built for daily use and durability",
+    ],
+    sampleWorks: [
+      {
+        title: "Luxury Walk-In Wardrobe",
+        category: "Built-in storage",
+        image:
+          "https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?auto=format&fit=crop&w=900&q=80",
+        description:
+          "A fully integrated wardrobe with hanging, shelving, and hidden organization zones.",
+      },
+      {
+        title: "Sliding Door Design",
+        category: "Modern finish",
+        image:
+          "https://images.unsplash.com/photo-1494526585095-c41746248156?auto=format&fit=crop&w=900&q=80",
+        description:
+          "Elegant sliding panels create a sleek, contemporary bedroom statement.",
+      },
+      {
+        title: "Compact Storage Wall",
+        category: "Small-space solution",
+        image:
+          "https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?auto=format&fit=crop&w=900&q=80",
+        description:
+          "Maximizes bedroom functionality while keeping a soft, minimalist aesthetic.",
+      },
     ],
   },
   {
@@ -64,6 +116,32 @@ export const services = [
       "Professional plastering and finishing",
       "Clean, polished ceiling detailing",
     ],
+    sampleWorks: [
+      {
+        title: "Tray Ceiling Feature",
+        category: "Layered architecture",
+        image:
+          "https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?auto=format&fit=crop&w=900&q=80",
+        description:
+          "A refined ceiling layout that adds dimension and luxury to the room.",
+      },
+      {
+        title: "Ambient Living Room Ceiling",
+        category: "Lighting integration",
+        image:
+          "https://images.unsplash.com/photo-1494526585095-c41746248156?auto=format&fit=crop&w=900&q=80",
+        description:
+          "Designed with concealed light lines for a warm, elevated mood.",
+      },
+      {
+        title: "Modern Hallway Detail",
+        category: "Architectural styling",
+        image:
+          "https://images.unsplash.com/photo-1484154218962-a197022b5858?auto=format&fit=crop&w=900&q=80",
+        description:
+          "Clean geometry and smooth surfaces create a polished transition space.",
+      },
+    ],
   },
   {
     slug: "tv-stands-installation",
@@ -82,6 +160,32 @@ export const services = [
       "Cable management and hidden storage",
       "Aesthetic design with practical utility",
       "Seamless installation and finishing",
+    ],
+    sampleWorks: [
+      {
+        title: "Media Wall Console",
+        category: "Home entertainment",
+        image:
+          "https://images.unsplash.com/photo-1494526585095-c41746248156?auto=format&fit=crop&w=900&q=80",
+        description:
+          "A tailored media wall that keeps electronics organized and visually clean.",
+      },
+      {
+        title: "Living Room Feature Unit",
+        category: "Statement styling",
+        image:
+          "https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?auto=format&fit=crop&w=900&q=80",
+        description:
+          "Balanced proportions and built-in storage create a refined focal point.",
+      },
+      {
+        title: "Minimal TV Setup",
+        category: "Streamlined finish",
+        image:
+          "https://images.unsplash.com/photo-1484154218962-a197022b5858?auto=format&fit=crop&w=900&q=80",
+        description:
+          "Sleek cabinetry and clean lines give the room a luxurious, uncluttered look.",
+      },
     ],
   },
   {
@@ -102,6 +206,32 @@ export const services = [
       "Moisture-resistant installation",
       "Modern textures and style combinations",
     ],
+    sampleWorks: [
+      {
+        title: "Marble Floor Finish",
+        category: "Luxury flooring",
+        image:
+          "https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?auto=format&fit=crop&w=900&q=80",
+        description:
+          "Elegant tiling that blends sophistication, texture, and practical durability.",
+      },
+      {
+        title: "Feature Wall Mosaic",
+        category: "Designer wall tiles",
+        image:
+          "https://images.unsplash.com/photo-1494526585095-c41746248156?auto=format&fit=crop&w=900&q=80",
+        description:
+          "A textured statement wall that adds style and depth to the room.",
+      },
+      {
+        title: "Bathroom Wet Area",
+        category: "Waterproof finish",
+        image:
+          "https://images.unsplash.com/photo-1484154218962-a197022b5858?auto=format&fit=crop&w=900&q=80",
+        description:
+          "Durable installation with clean alignment and a refined modern finish.",
+      },
+    ],
   },
   {
     slug: "wainscoting",
@@ -120,6 +250,32 @@ export const services = [
       "Refined wall detailing",
       "Adds durability and decorative character",
       "Designed for a premium finish",
+    ],
+    sampleWorks: [
+      {
+        title: "Hotel-Style Dining Wall",
+        category: "Traditional elegance",
+        image:
+          "https://images.unsplash.com/photo-1494526585095-c41746248156?auto=format&fit=crop&w=900&q=80",
+        description:
+          "Layered wall paneling designed to create a more elevated dining experience.",
+      },
+      {
+        title: "Modern Living Room Detail",
+        category: "Architectural texture",
+        image:
+          "https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?auto=format&fit=crop&w=900&q=80",
+        description:
+          "Clean panel lines add warmth and sophistication without overwhelming the space.",
+      },
+      {
+        title: "Premium Hallway Upgrade",
+        category: "Decorative finish",
+        image:
+          "https://images.unsplash.com/photo-1484154218962-a197022b5858?auto=format&fit=crop&w=900&q=80",
+        description:
+          "A welcoming entryway finished with detailed paneling and soft contrast tones.",
+      },
     ],
   },
 ];
