@@ -1,45 +1,6 @@
 import { useEffect, useRef, useState } from "react";
-import {
-  UtensilsCrossed,
-  ShirtIcon,
-  Layers,
-  Tv2,
-  Grid3x3,
-  PanelLeft,
-} from "lucide-react";
-
-const services = [
-  {
-    icon: UtensilsCrossed,
-    title: "KITCHEN CABINET",
-    description: "Modern & custom kitchen cabinet solutions.",
-  },
-  {
-    icon: ShirtIcon,
-    title: "WARDROBE INSTALLATION",
-    description: "Stylish and functional wardrobe designs & installation.",
-  },
-  {
-    icon: Layers,
-    title: "GYPSUM CEILING",
-    description: "Elegant gypsum ceiling designs for a modern look.",
-  },
-  {
-    icon: Tv2,
-    title: "TV STANDS INSTALLATION",
-    description: "Custom TV stands that fit your space perfectly.",
-  },
-  {
-    icon: Grid3x3,
-    title: "TILING",
-    description: "Quality tiling services for floors and walls.",
-  },
-  {
-    icon: PanelLeft,
-    title: "WAINSCOTING",
-    description: "Decorative wall paneling for a classy finish.",
-  },
-];
+import { Link } from "react-router-dom";
+import { services } from "../data/services";
 
 function ServiceCard({ service, index }) {
   const [visible, setVisible] = useState(false);
@@ -53,16 +14,17 @@ function ServiceCard({ service, index }) {
           setTimeout(() => setVisible(true), index * 100);
         }
       },
-      { threshold: 0.15 }
+      { threshold: 0.15 },
     );
     if (ref.current) observer.observe(ref.current);
     return () => observer.disconnect();
   }, [index]);
 
   return (
-    <div
+    <Link
+      to={`/services/${service.slug}`}
       ref={ref}
-      className="group bg-white border border-gray-200 rounded-xl p-6 flex flex-col items-center text-center cursor-default
+      className="group block bg-white border border-gray-200 rounded-xl p-6 flex flex-col items-center text-center cursor-pointer
         transition-all duration-500 hover:border-[#C9A227] hover:shadow-lg hover:-translate-y-1"
       style={{
         opacity: visible ? 1 : 0,
@@ -91,7 +53,7 @@ function ServiceCard({ service, index }) {
       <p className="text-gray-500 text-sm leading-relaxed">
         {service.description}
       </p>
-    </div>
+    </Link>
   );
 }
 
@@ -101,8 +63,10 @@ export default function Services() {
 
   useEffect(() => {
     const observer = new IntersectionObserver(
-      ([entry]) => { if (entry.isIntersecting) setHeaderVisible(true); },
-      { threshold: 0.3 }
+      ([entry]) => {
+        if (entry.isIntersecting) setHeaderVisible(true);
+      },
+      { threshold: 0.3 },
     );
     if (headerRef.current) observer.observe(headerRef.current);
     return () => observer.disconnect();

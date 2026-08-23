@@ -1,16 +1,14 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from './assets/vite.svg'
-import './App.css'
-import Navbar from "./components/nav_bar"
-import Hero from "./components/hero_section"
-import Services from "./components/services_section"
-import RecentProjects from "./components/recent_projects"
-import AboutUs from "./components/about_us"
-import Footer from "./components/footer_section"
+import { Routes, Route } from "react-router-dom";
+import "./App.css";
+import Navbar from "./components/nav_bar";
+import Hero from "./components/hero_section";
+import Services from "./components/services_section";
+import ServiceDetailPage from "./components/service_detail_page";
+import RecentProjects from "./components/recent_projects";
+import AboutUs from "./components/about_us";
+import Footer from "./components/footer_section";
 
-function App() {
-
+function LandingPage() {
   return (
     <>
       <Navbar />
@@ -19,12 +17,17 @@ function App() {
       <RecentProjects />
       <AboutUs />
       <Footer />
-
-
-
-
     </>
-  )
+  );
 }
 
-export default App
+function App() {
+  return (
+    <Routes>
+      <Route path="/" element={<LandingPage />} />
+      <Route path="/services/:slug" element={<ServiceDetailPage />} />
+    </Routes>
+  );
+}
+
+export default App;
