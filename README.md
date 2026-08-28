@@ -1,4 +1,4 @@
-# Rajula Interior Design Website
+# Signature Crafts builders Website
 
 A modern React + Vite website for Rajula Interior Design, built to showcase the brand, interior design services, recent projects, and company profile in a clean, premium, and mobile-friendly experience.
 
@@ -360,7 +360,7 @@ firebase deploy
 
 ## Final Notes
 
-This project is a clean and scalable front-end foundation for Rajula Interior Design. It is structured to be easy to maintain, simple to update, and suitable for ongoing portfolio growth.
+This project is a clean and scalable front-end foundation for Signature Crafts Builders. It is structured to be easy to maintain, simple to update, and suitable for ongoing portfolio growth.
 
 If you are working with a team, this README can also serve as a quick onboarding guide for anyone joining the project later.
 
